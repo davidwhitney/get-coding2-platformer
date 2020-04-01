@@ -303,13 +303,3 @@
 
         this.draw = function () { this.character.draw(); }
     }
-
-
-// game.start();
-
-module.exports = {
-    world: world,
-    player: player,
-    controls: game.controls,
-    tick: game.loop
-};
